@@ -1,0 +1,30 @@
+Package: PlusMinusModels
+Title: Plus-Minus models for player impact in sports
+Version: 1.0
+Authors@R:
+    person(given = "Taylor",
+           family = "Pospisil",
+           role = c("aut", "cre"),
+           email = "tpospisi@andrew.cmu.edu")
+Description: Fits plus-minus models including regularized adjusted
+    plus-minus and ratings augmented adjusted plus-minus.
+License: GPL (>=3)
+Depends:
+    methods,
+    R (>= 3.4.0),
+    Rcpp (>= 0.12.18)
+Imports:
+    rstan (>= 2.17.3),
+    rstantools (>= 1.5.1),
+    glmnet
+LinkingTo:
+    BH (>= 1.66.0-1),
+    Rcpp (>= 0.12.18),
+    RcppEigen (>= 0.3.3.4.0),
+    rstan (>= 2.17.3),
+    StanHeaders (>= 2.17.2)
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+SystemRequirements: GNU make
+RoxygenNote: 6.0.1
